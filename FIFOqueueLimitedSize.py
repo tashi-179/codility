@@ -1,3 +1,4 @@
+"""
 Implement a FIFO queue with limited size
 Problem statement
 implement a FIFO queue with limited size. It should support the  following commands:
@@ -22,8 +23,8 @@ Input Example
 Output Example 
 For the above input, the output should be the following:
 ["true", "true", "false", "hello", "1"]
-
-Solution
+"""
+# Solution
 
 def solution(X, B):
     queue = []
